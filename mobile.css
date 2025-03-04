@@ -1,0 +1,166 @@
+@media (max-width: 1024px) {
+  .navbar-container {
+    display: none;
+  }
+
+  .showcase-container > h1 {
+    font-size: 3rem;
+    text-align: center;
+    line-height: 3.3rem;
+  }
+  .showcase-container > p {
+    font-size: 0.875rem;
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .about-me-content img {
+    width: 250px;
+    height: 250px;
+    margin-right: 0;
+    padding-left: 0px;
+    padding-bottom: 0px;
+  }
+
+  .about-me-content p {
+    font-size: 0.875rem;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+  .about-me-content {
+    flex-direction: column;
+  }
+
+  .skills-content {
+    margin-top: 40px;
+    flex-direction: column;
+    display: grid;
+  }
+
+  /*utilities*/
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .section-content {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .section-container {
+    padding: 30px;
+  }
+  .skills-content .skill-items:nth-child(1) {
+    margin-left: 0px;
+  }
+
+  .skills-content .skill-items:nth-child(2) {
+     margin-bottom: 40px; 
+    margin-top: 40px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.skill-item img{
+  width: 60px;
+  height: 60px;
+}
+
+.skill-item p {
+  font-size: 0.875rem;
+}
+
+.about-me-content p {
+  color: white;
+  line-height: 2rem;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+  
+.skills-content {
+  margin-left: 20px;
+}
+     
+/* Projetos */
+
+
+.projects-content .projects-item:nth-child(2),
+.projects-content .projects-item:nth-child(4){
+  justify-content: center;
+  text-align: center;
+}
+
+.projects-content .projects-item:nth-child(2) .project-item-2,
+.projects-content .projects-item:nth-child(4) .project-item-4 {
+  order: 1;
+  margin-left: 0px;
+}
+
+.projects-content .projects-item:nth-child(2) .project-text,
+.projects-content .projects-item:nth-child(4) .project-text {
+  order: 2;
+}
+
+.projects-item {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.project-item-1 {
+  margin-left: 0px;
+}
+
+.project-item-2 {
+  margin-right: 0px;
+}
+
+.project-item-3 {
+  margin-left: 0px;
+}
+
+.project-item-4 {
+  margin-right: 0px;
+}
+
+.project-text {
+  margin-left: 0px;
+  max-width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.project-text h3 {
+  font-size: 1.5rem;
+}
+
+.project-text p {
+  font-size: 0.875rem;
+  margin-top: 10px;
+}
+
+  
+  /* Formulario */
+
+.contact-form {
+  margin-top: 40px;
+}
+
+.section-title {
+  text-align: center;
+}
+
+/*footer */
+
+.footer-container {
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-medias {
+  margin-bottom: 15px;
+}
+
+.social-medias a:last-child{
+  margin-right: 0px;
+}
